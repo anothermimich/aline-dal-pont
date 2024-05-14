@@ -11,8 +11,9 @@
 }
 
 body {
-  font-family: "CothamSans", sans-serif;
-  line-height: 1;
+  font-family: "montserrat", serif;
+  line-height: 1.3;
+  font-weight: 400;
   color: #111;
   height: 100vh;
   width: 100vw;
@@ -28,8 +29,6 @@ body::-webkit-scrollbar {
 a {
   text-decoration: none;
   color: #111;
-  font-weight: 500;
-  font-size: 1.2rem;
 }
 
 .anchor {
@@ -52,6 +51,11 @@ a {
 .nav div {
   display: flex;
   gap: 1rem;
+}
+
+.nav a {
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 /* photo gallery */
@@ -79,6 +83,11 @@ main {
 
 .text-col h2 {
   font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.text-col p {
+  font-size: 1rem;
 }
 
 /* footer */
