@@ -116,3 +116,12 @@ footer a {
   align-items: center;
   gap: 2rem;
 }
+
+/* sobre */
+
+.about {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
