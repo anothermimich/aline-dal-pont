@@ -1,0 +1,104 @@
+/* general components */
+@font-face {
+  font-family: "Cotham Sans";
+  src: url("fonts/CothamSans.woff2") format("woff2"), url("fonts/CothamSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cotham Sans";
+  line-height: 1;
+  color: #111;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  /* scrollbar-width: none; */
+  /* -ms-overflow-style: none; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* specific components */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 1;
+}
+.nav div {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  position: relative;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 60vw;
+  margin: 30vh auto;
+  user-select: none;
+  /* overflow: scroll; */
+}
+
+footer {
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer a {
+  font-size: 1rem;
+}
+.license-icons {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.license-icons img {
+  width: 0.8rem;
+}
+
+.text-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.text-col p {
+  /* margin-left: -3rem; */
+}
+.text-col h2 {
+  font-size: 1.2rem;
+  /* align-self: end; */
+  /* margin-right: -3rem; */
+}
