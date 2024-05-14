@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Cotham Sans";
-  src: url("fonts/CothamSans.woff2") format("woff2"), url("fonts/CothamSans.woff") format("woff");
+  src: url("fonts/CothamSans.eot");
+  src: url("fonts/CothamSans.eot?#iefix") format("embedded-opentype"),
+    url("fonts/CothamSans.woff2") format("woff2"), url("fonts/CothamSans.woff") format("woff"),
+    url("fonts/CothamSans.ttf") format("truetype"),
+    url("fonts/CothamSans.svg#CothamSans") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -19,7 +23,7 @@
 }
 
 body {
-  font-family: "Cotham Sans";
+  font-family: "Cotham Sans", sans-serif;
   line-height: 1;
   color: #111;
   height: 100vh;
