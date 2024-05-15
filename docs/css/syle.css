@@ -98,7 +98,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
-  margin-top: -3.5rem;
 }
 
 footer a {
@@ -123,21 +122,20 @@ footer a {
 }
 
 .col-menu div {
-  height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   font-size: 1.3rem;
+  margin-top: 50vh;
+  transform: translate(0, -50%);
 }
 
 /* about page */
 
 .about {
   width: 80vw;
-  height: 100vh;
   margin: 0 auto;
   padding-top: 20vh;
 }
@@ -149,4 +147,13 @@ footer a {
 }
 .about div h2 {
   font-size: 1.3rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto;
 }
