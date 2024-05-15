@@ -32,9 +32,9 @@ body::-webkit-scrollbar {
 
 a {
   text-decoration: none;
-  color: #111;
+  color: #111111;
   -webkit-user-drag: none;
-  cursor: url("/docs/icons/cursor/cursor14.svg"), auto;
+  cursor: url("/docs/icons/cursor/cursor14.svg"), pointer;
 }
 p,
 h2 {
