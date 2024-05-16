@@ -1,0 +1,49 @@
+/* media queries, from narrow to wide */
+
+@media all and (min-width: 1000px) {
+  /* nav */
+  .pad-right {
+    padding-right: 0.5rem;
+  }
+  .nav a {
+    font-size: 0.6rem;
+  }
+  /* gallery */
+  .gallery {
+    max-width: 24vw;
+    margin: 14vh auto;
+  }
+  .text-col h1 {
+    font-size: 0.6rem;
+  }
+  .text-col p {
+    font-size: 0.3rem;
+  }
+  /* footer */
+  footer a {
+    font-size: 0.3rem;
+  }
+  .license-icons img {
+    width: 0.1rem;
+  }
+  /* collection page */
+  .col-menu div {
+    font-size: 0.6rem;
+  }
+  /* about page */
+  .about {
+    max-width: 29vw;
+    padding-top: 14vh;
+  }
+  .about div h1 {
+    font-size: 0.6rem;
+  }
+  .about div p {
+    font-size: 0.3rem;
+  }
+}
+@media all and (max-height: 499px) {
+  .gallery {
+    max-width: 24vw;
+  }
+}
