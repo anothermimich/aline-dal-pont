@@ -11,12 +11,12 @@
 }
 
 body {
-  font-family: "arconregular", "montserrat", serif;
+  font-family: "arconregular", system-ui, -apple-system, "Helvetica Neue", sans-serif;
   line-height: 1.2;
   font-weight: normal;
   color: #111;
-  height: 100vh;
-  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
   background-color: #fff;
   display: flex;
   flex-direction: column;
