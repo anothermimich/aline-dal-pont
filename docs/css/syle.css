@@ -179,7 +179,7 @@ footer a {
 }
 /* media queries, from narrow to wide */
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 9200px) {
   /* nav */
   .pad-right {
     padding-right: 1.5rem;
