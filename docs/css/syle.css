@@ -43,6 +43,10 @@ h2 {
   user-select: none;
 }
 
+p {
+  letter-spacing: 1px;
+}
+
 .anchor {
   position: absolute;
   transform: translateY(-20vh);
@@ -84,7 +88,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  width: 60vw;
+  max-width: 60vw;
   margin: 30vh auto;
   user-select: none;
 }
@@ -103,11 +107,10 @@ main {
 
 .text-col h2 {
   font-size: 1.3rem;
-  font-weight: 400;
 }
 
 .text-col p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /* footer */
@@ -122,7 +125,8 @@ footer {
 }
 
 footer a {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
 }
 
 .license-icons {
@@ -133,7 +137,7 @@ footer a {
 }
 
 .license-icons img {
-  width: 0.8rem;
+  width: 0.9rem;
 }
 
 /* collection page */
@@ -156,7 +160,7 @@ footer a {
 /* about page */
 
 .about {
-  width: 80vw;
+  max-width: 80vw;
   margin: 0 auto;
   padding-top: 30vh;
 }
@@ -168,4 +172,57 @@ footer a {
 }
 .about div h2 {
   font-size: 1.3rem;
+}
+.about div p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+/* media queries, from narrow to wide */
+
+@media all and (min-width: 1000px) {
+  /* nav */
+  .nav {
+    padding-right: 1.5rem;
+  }
+  .nav a {
+    font-size: 1.6rem;
+  }
+  /* gallery */
+  .gallery {
+    max-width: 25vw;
+    margin: 15vh auto;
+  }
+  .text-col h2 {
+    font-size: 1.6rem;
+  }
+  .text-col p {
+    font-size: 1.3rem;
+  }
+  /* footer */
+  footer a {
+    font-size: 1.3rem;
+  }
+  .license-icons img {
+    width: 1.1rem;
+  }
+  /* collection page */
+  .col-menu div {
+    font-size: 1.6rem;
+  }
+  /* about page */
+  .about {
+    max-width: 30vw;
+    padding-top: 15vh;
+  }
+  .about div h2 {
+    font-size: 1.6rem;
+  }
+  .about div p {
+    font-size: 1.3rem;
+  }
+}
+@media all and (max-height: 500px) {
+  .gallery {
+    max-width: 25vw;
+  }
 }
