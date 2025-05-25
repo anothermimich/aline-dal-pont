@@ -13,6 +13,9 @@
   /* nav */
   .nav {
     background-color: transparent;
+    width: 95vw;
+    padding-top: 2rem;
+    margin-left: 2.5vw;
   }
   .pad-right {
     padding-right: 1.5rem;
@@ -27,6 +30,11 @@
 
   /* footer */
 
+  footer {
+    max-width: 95vw;
+    margin-left: 2.5vw;
+    padding-bottom: 2rem;
+  }
   footer a {
     font-size: 1.1rem;
   }
